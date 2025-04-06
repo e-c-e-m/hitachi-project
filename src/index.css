@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Nueue";
+  src: url("src/assets/fonts/NeueHaasDisplayRoman.ttf");
+}
+@font-face {
+  font-family: "Nueue-Medium";
+  src: url("src/assets/fonts/NeueHaasDisplayMediu.ttf");
+}
+@font-face {
+  font-family: "Nueue-Bold";
+  src: url("src/assets/fonts/NeueHaasDisplayBold.ttf");
+}
+@font-face {
+  font-family: "Nueue-Black";
+  src: url("src/assets/fonts/NeueHaasDisplayBlack.ttf");
+}
+
+.nue-medium {
+  font-family: "Nueue-Medium";
+}
+.nue-bold {
+  font-family: "Nueue-Bold";
+}
+.nue-black {
+  font-family: "Nueue-Black";
+}
+
+.fallback-video {
+  transform: scale(1.4) !important;
+}
+
+.immersive-footnotes {
+  padding: 40px 20px;
+  position: relative;
+  text-align: center;
+  display: block;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.immersive-footnotes p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  margin: 13px 0;
+}
+.immersive-footnotes a {
+  text-decoration: underline;
+}
+
+.complete-static {
+  transform: scale(1.5);
+  padding-top: 70% !important;
+}
